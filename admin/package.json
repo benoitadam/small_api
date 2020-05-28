@@ -1,0 +1,56 @@
+{
+	"name": "admin-api",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"@material-ui/core": "^4.4.2",
+		"@material-ui/icons": "^4.4.1",
+		"@material-ui/lab": "^4.0.0-alpha.26",
+		"@material-ui/styles": "^4.4.1",
+		"@material-ui/system": "^4.3.3",
+		"cross-fetch": "^3.0.4",
+		"js-sha256": "^0.9.0",
+		"lodash": "^4.17.15",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"rxjs": "^6.5.2",
+		"ts-polyfill": "^3.7.4",
+		"uuid": "^3.3.3"
+	},
+	"devDependencies": {
+		"react-scripts": "3.0.1",
+		"@types/jest": "24.0.13",
+		"@types/lodash": "^4.14.145",
+		"@types/uuid": "^3.4.5",
+		"@typescript-eslint/eslint-plugin": "^1.9.0",
+		"eslint-plugin-react": "^7.13.0",
+		"typescript": "3.4.5"
+	},
+	"scripts": {
+		"start": "PORT=3001 react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"prettier": {
+		"singleQuote": true,
+		"useTabs": true,
+		"printWidth": 120,
+		"trailingComma": "all"
+	}
+}
